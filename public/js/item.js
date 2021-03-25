@@ -167,7 +167,7 @@ function AboutUs() {
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
       children: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum totam est repellat iure odio, delectus culpa maiores quasi quam iste, cum dicta reprehenderit earum itaque, atque accusamus id! Dolores, fugit.    L Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat molestias itaque vero sint, doloribus voluptatem recusandae iure sunt quae tempore enim harum explicabo ratione consequuntur inventore. Ad laboriosam voluptas beatae."
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
-      children: "We don't own any of these marketed items. By purchasing any of them you agree to not recieved any item and your payment will be considered donation to our private accounts. Thank you for your support"
+      children: "We don't own any of these marketed items. By purchasing any of them you agree not to recieved any item and your payment will be considered donation to our private accounts. Thank you for your support"
     })]
   });
 }
@@ -230,6 +230,11 @@ function Owners() {
       _useState6 = _slicedToArray(_useState5, 2),
       show = _useState6[0],
       setShow = _useState6[1];
+
+  var _useState7 = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false),
+      _useState8 = _slicedToArray(_useState7, 2),
+      style = _useState8[0],
+      setStyle = _useState8[1];
 
   function fetchOwners() {
     return _fetchOwners.apply(this, arguments);

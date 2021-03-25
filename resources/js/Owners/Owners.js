@@ -8,6 +8,7 @@ function Owners(){
     const[owners, setOwners] = useState("")
     const[ownItems, setOwnItems] = useState("")
     const[show, setShow] = useState(false)
+    const[style, setStyle] = useState(false)
     
     
    

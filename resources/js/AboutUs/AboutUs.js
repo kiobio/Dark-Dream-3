@@ -29,7 +29,7 @@ function AboutUs(){
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum totam est repellat iure odio, delectus culpa maiores quasi quam iste, cum dicta reprehenderit earum itaque, atque accusamus id! Dolores, fugit.    L
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat molestias itaque vero sint, doloribus voluptatem recusandae iure sunt quae tempore enim harum explicabo ratione consequuntur inventore. Ad laboriosam voluptas beatae.
             </p>
-            <p>We don't own any of these marketed items. By purchasing any of them you agree to not recieved any item and your payment will be considered donation to our private accounts. Thank you for your support</p>
+            <p>We don't own any of these marketed items. By purchasing any of them you agree not to recieved any item and your payment will be considered donation to our private accounts. Thank you for your support</p>
         </div>
 )
 }

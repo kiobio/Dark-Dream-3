@@ -66,9 +66,11 @@ function Cart(){
             }else{
                 noMoney()
                 MySwal.fire("Nice try!", 
-                "You are not that rich")
+                "You don't have that kind of a money")
             }        
-             
+             MySwal.fire("Congratulation",
+             "You just purchased your items",
+             "check your profile in Owners")
              fetchCartItems()
              fetchCartItems()   
                    
