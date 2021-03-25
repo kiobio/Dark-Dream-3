@@ -1886,9 +1886,10 @@ function Cart() {
 
         if (Number > 0.5) {
           cleanOrders();
+          MySwal.fire("Congratulation", "You just purchased your items", "check your profile in Owners");
         } else {
           noMoney();
-          MySwal.fire("Nice try!", "You are not that rich");
+          MySwal.fire("Nice try!", "You don't have that kind of a money");
         }
 
         fetchCartItems();

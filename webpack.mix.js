@@ -27,7 +27,7 @@ mix.sass('resources/scss/eshop.scss', 'public/css');
 
 mix.js('resources/js/auth/index.jsx', 'public/js/auth.js').react();
 mix.js('resources/js/item/index.jsx', 'public/js/item.js').react();
-mix.js('resources/js/order/index.jsx', 'public/js/order.js').react();
+mix.js('resources/js/order/index.js', 'public/js/order.js').react();
 
 
 mix.browserSync({

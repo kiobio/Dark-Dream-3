@@ -62,15 +62,16 @@ function Cart(){
          onClick ={ () =>{
             const Number = Math.random() 
             if(Number > 0.5){
-               cleanOrders()
+               cleanOrders() 
+               MySwal.fire("Congratulation",
+             "You just purchased your items",
+             "check your profile in Owners")
             }else{
                 noMoney()
                 MySwal.fire("Nice try!", 
                 "You don't have that kind of a money")
             }        
-             MySwal.fire("Congratulation",
-             "You just purchased your items",
-             "check your profile in Owners")
+            
              fetchCartItems()
              fetchCartItems()   
                    
