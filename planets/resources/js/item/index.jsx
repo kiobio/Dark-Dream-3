@@ -18,11 +18,14 @@ import Cart from '../order/Cart';
 
 
 
+
 ReactDOM.render((     
 
          <Router>
 
-             <Navigation/>
+             <Navigation
+             
+             />
              <Switch>
             <Route exact path="/" children = { <Categories/> }/>
             <Route exact path ="/shopping_cart" children = { <Cart/> }/>            

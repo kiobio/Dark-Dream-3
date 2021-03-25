@@ -34,6 +34,7 @@ a {
           animation-name: "gradient";
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
+  cursor: pointer;
 }
 .Galaxy:hover img {
   transform: rotate(360deg);
@@ -120,6 +121,7 @@ a {
 .navigation p:hover {
   font-size: 2rem;
   text-decoration: underline;
+  cursor: pointer;
 }
 
 h1 {
@@ -137,6 +139,14 @@ h1 {
   font-weight: bold;
 }
 
+.cart img {
+  width: 5rem;
+}
+.cart img:hover {
+  cursor: pointer;
+  width: 7rem;
+}
+
 .Universe {
   margin-bottom: 5rem;
 }
@@ -150,6 +160,9 @@ h1 {
   font-size: 4rem;
 }
 
+.Universe:hover {
+  cursor: pointer;
+}
 .Universe:hover h2 {
   text-decoration: underline;
 }
@@ -175,6 +188,9 @@ h1 {
   margin-top: 5rem;
 }
 
+.Category:hover {
+  cursor: pointer;
+}
 .Category:hover h2 {
   text-decoration: underline;
 }
@@ -232,7 +248,7 @@ h1 {
   font-size: 5rem;
 }
 .AboutUs .Team {
-  height: 105vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -242,12 +258,12 @@ h1 {
   margin-right: 1.5rem;
   border-style: solid;
   border-color: #272755;
+  margin-bottom: 0;
 }
 .AboutUs p {
   text-align: center;
   margin-left: 15rem;
   margin-right: 15rem;
-  margin-top: -8rem;
 }
 
 .Detail {
@@ -308,6 +324,9 @@ h1 {
 .Detail .Buy p {
   font-size: 5rem;
 }
+.Detail .Buy button:hover {
+  cursor: pointer;
+}
 
 .Sold {
   width: 98%;
@@ -321,6 +340,28 @@ h1 {
   margin: 1rem;
 }
 
+.PageOwners {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.owners {
+  display: flex;
+  margin-top: 2rem;
+  height: 100vh;
+}
+.owners .own {
+  width: 25rem;
+  background-color: rgba(53, 51, 51, 0.3);
+  height: 100vh;
+}
+.owners .own h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: -1rem;
+}
+
 .purchased {
   display: flex;
   flex-direction: column;
@@ -328,8 +369,25 @@ h1 {
 .purchased h3 {
   text-align: center;
   font-size: 3rem;
-  margin-top: -5rem;
   text-decoration: underline;
+}
+
+.owner {
+  width: 25rem;
+  background-color: rgba(53, 51, 51, 0.6);
+  text-align: center;
+}
+
+.owner:hover {
+  font-size: 1.2rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.OwnerFlex {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
 }
 
 .UniverseDetail {
@@ -338,6 +396,7 @@ h1 {
   background-color: rgba(53, 51, 51, 0.3);
 }
 .UniverseDetail img {
+  width: 40rem;
   border-style: solid;
   border-color: #272755;
   border-width: 0.5rem;
@@ -347,12 +406,64 @@ h1 {
   flex-direction: column;
 }
 .UniverseDetail .UniverseText h3 {
+  margin-top: 2rem;
   text-align: center;
+  font-size: 3rem;
 }
 .UniverseDetail .UniverseText p {
   text-align: center;
   margin-right: 4rem;
   margin-left: 4rem;
+  margin-top: 2rem;
+}
+.UniverseDetail .UniverseText .Number {
+  margin-top: 4rem;
+  font-size: 2rem;
+}
+.UniverseDetail .UniverseText .Universeimg {
+  width: 15rem;
+  border-width: 0;
+  align-self: center;
+}
+.UniverseDetail .UniverseText .belongs {
+  font-size: 3rem;
+}
+
+.Cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Cart .ImageText {
+  display: flex;
+  flex-direction: column;
+  width: 80rem;
+  margin-left: 8rem;
+  border-style: dotted;
+  border-color: rgba(53, 51, 51, 0.6);
+}
+.Cart img {
+  width: 30rem;
+  align-self: center;
+  margin-bottom: 3rem;
+}
+.Cart .ItemPrice {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  width: 30rem;
+  margin-left: 25rem;
+  background-color: rgba(53, 51, 51, 0.3);
+}
+.Cart button {
+  background-color: black;
+  margin-top: 3rem;
+  width: 10rem;
+  height: 4rem;
+  font-size: 2rem;
+  font-weight: bold;
+  color: palevioletred;
+  align-self: center;
 }
 
 /*# sourceMappingURL=eshop.css.map*/

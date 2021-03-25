@@ -42,6 +42,8 @@ function UniverseItems(){
                 <div className="UniverseText">
                     <h3>{universeDetail.name}</h3>
                     <p>{universeDetail.info}</p>
+                    <p className="Number">There are {universeItems.length} discovered items in {universeDetail.name} universe</p>
+                    
                 </div>
                 
             </div>

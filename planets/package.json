@@ -24,6 +24,9 @@
         "sass-loader": "^10.1.1"
     },
     "dependencies": {
-        "react-router-dom": "^5.2.0"
+        "react-router-dom": "^5.2.0",
+        "sweetalert": "^2.1.2",
+        "sweetalert2": "^10.15.6",
+        "sweetalert2-react-content": "^3.3.1"
     }
 }

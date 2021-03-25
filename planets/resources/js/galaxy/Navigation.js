@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import cart from "../../../storage/img/cart.png"
+import shoppingCart from '../../../storage/img/cart.png';
+
 
 
 
@@ -9,7 +10,7 @@ function Navigation(){
     
             
         <div>
-                <Link to="/shopping_cart"><p><img src={cart}/></p></Link>
+               
             
             <div className="DarkDream">
                 <h1><Link to="/">Dark Dream</Link></h1>
@@ -23,6 +24,7 @@ function Navigation(){
                     <Link to="/AboutUs"><p>About us</p></Link>
                     <Link to="/login"><p>Login</p></Link>
                     <Link to="/register"><p>Register</p></Link>
+                    <Link to="/shopping_cart"> <div className="cart"><img src={shoppingCart}/></div></Link>
                 </div>
             </div>
         </div>

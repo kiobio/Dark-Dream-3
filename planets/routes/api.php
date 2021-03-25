@@ -40,7 +40,8 @@ Route::get('/item/subcategoryid/{subcategory}', 'Api\ItemController@items_by_sub
 Route::get('/item/universeid/{universe}', 'Api\ItemController@items_by_universe');
 Route::get('/item/categoryid/{category}', 'Api\ItemController@items_by_category');
 Route::get('/order/item/{item_id}', 'Api\ItemController@order_by_item_id');
-Route::post('/sold/item', 'Api\ItemController@sold_item')->middleware('auth:sanctum');
+Route::get('/sold/item', 'Api\ItemController@sold_item')->middleware('auth:sanctum');
+Route::get('/notsold/item', 'Api\ItemController@notsold_item')->middleware('auth:sanctum');
 
 //order
 Route::get('/order', 'Api\orderController@orders_api');

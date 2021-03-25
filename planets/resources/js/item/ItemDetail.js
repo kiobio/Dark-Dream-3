@@ -3,12 +3,16 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import Earth from '../../../storage/img/Earth.jpg';
 import Universes from '../../../storage/img/universes.png';
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
 
 
 
 function ItemDetail(){
     const[itemDetail, setItemDetail] = useState("")
     let { id } = useParams();
+
+    const MySwal = withReactContent(Swal)
    
 
     async function fetchItem(){
@@ -85,8 +89,12 @@ function ItemDetail(){
            <div className="Buy">
                 <p>{itemDetail.price}</p>
                <button 
-               onClick={ () =>  
-                postData()}
+               onClick={ () =>{
+                MySwal.fire(
+                    'Your Item has been add to shopping cart',
+                    
+                )
+                postData()}}
                >Buy</button>
            </div>}
             

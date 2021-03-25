@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Item;
 use App\Models\Order;
+use App\Models\User;
 //use Auth;
 use Illuminate\Support\Facades\Auth;
 
@@ -137,6 +138,9 @@ class ItemController extends Controller
                     $order = new Order;
                     $order->item_id = $item->id;
                     $order->user_id = Auth::id();
+                    $owner = User::find($order->user_id);
+                    $owner->owner = 1;
+                    $owner->save();
                     $order->save();
                     return $order;
                 }
@@ -149,8 +153,19 @@ class ItemController extends Controller
                         $item->user_id = $order->user_id;
                         $item->save();
                         $order->delete();
+                        //return $item;
                   };
                 }
+
+                public function notsold_item()
+            {
+                $orders = Order::get();
+                foreach($orders as $order) {
+                         $order->delete();
+                        //return $item;
+                  };
+                }
+           
            
            
                     
