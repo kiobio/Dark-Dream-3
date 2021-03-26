@@ -73,7 +73,7 @@ function Items(){
                         <div key={index} className = "Galaxy">
                             <h2>{item.name}</h2>
                             {item.subcategory ?        
-                            <p>{item.subcategory.name}</p>:<p>Starship</p>}
+                            <p>{item.type}, {item.subcategory.name} </p>:<p>{item.type}, Starship </p>}
                             <img src={item.image} alt={item.name}/> 
                             {item.user_id ?
                             <h3>Sold to {item.user.name}</h3> :                

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'
-
+import cat from "../../../storage/img/sad.png"
 
 
 
@@ -91,7 +91,9 @@ function Cart(){
       </div>
       
       :
-      <div></div>
+      <div className="Empty"><p >Nothing to pay for</p>
+      <img src={cat} alt="sad cat"/>
+      </div>
 
     )
 }
