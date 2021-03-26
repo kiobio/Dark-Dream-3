@@ -25,9 +25,9 @@ export default function Register(props) {
         });
         const response_data = await response.json();
 
-        if (Math.floor(response.status / 100) == 2) { // any kind of 2xx response code
-            location.href = '/'; // redirect to /
-            // location.reload(); // refresh the current page
+        if (Math.floor(response.status / 100) == 2) { 
+            location.href = '/'; 
+            
         }
     }
 
