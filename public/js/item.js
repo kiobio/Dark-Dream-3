@@ -1916,7 +1916,7 @@ function Cart() {
       onClick: function onClick() {
         var Number = Math.random();
 
-        if (Number > 0.5) {
+        if (Number < 1) {
           cleanOrders();
           MySwal.fire("Congratulation", "You just purchased your items", "check your profile in Owners");
         } else {
