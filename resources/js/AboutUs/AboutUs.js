@@ -1,7 +1,7 @@
 
 import Aneta from "../../../storage/img/Aneta2.png";
 import Lukas from "../../../storage/img/Lukas.png";
-import Dagmar from "../../../storage/img/Dagmar.png";
+import Dagmar from "../../../storage/img/Dagmar2.jpg";
 import LinkedIn from "../../../storage/img/LinkedIn.png";
 
 
