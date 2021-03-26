@@ -266,6 +266,11 @@ h1 {
   margin-right: 15rem;
 }
 
+#LinkedIn {
+  height: 8rem;
+  border: none;
+}
+
 .Detail {
   margin-top: 1rem;
   display: flex;

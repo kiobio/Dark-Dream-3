@@ -358,9 +358,7 @@ function Register(props) {
               response_data = _context.sent;
 
               if (Math.floor(response.status / 100) == 2) {
-                // any kind of 2xx response code
-                location.href = '/'; // redirect to /
-                // location.reload(); // refresh the current page
+                location.href = '/';
               }
 
             case 9:

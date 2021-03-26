@@ -128,7 +128,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _storage_img_Aneta2_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../storage/img/Aneta2.png */ "./storage/img/Aneta2.png");
 /* harmony import */ var _storage_img_Lukas_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../storage/img/Lukas.png */ "./storage/img/Lukas.png");
 /* harmony import */ var _storage_img_Dagmar_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../storage/img/Dagmar.png */ "./storage/img/Dagmar.png");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var _storage_img_LinkedIn_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../storage/img/LinkedIn.png */ "./storage/img/LinkedIn.png");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
 
 
 
@@ -136,37 +138,58 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function AboutUs() {
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
     className: "AboutUs",
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h1", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h1", {
       children: "Dark Dream Team"
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
       className: "Team",
-      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h2", {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h2", {
           children: "Aneta Fojt\xEDkov\xE1"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
           src: _storage_img_Aneta2_png__WEBPACK_IMPORTED_MODULE_0__.default,
           alt: "Aneta"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+          href: "https://www.linkedin.com/in/anetafojtikova/",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+            id: "LinkedIn",
+            src: _storage_img_LinkedIn_png__WEBPACK_IMPORTED_MODULE_3__.default,
+            alt: "LinkedIn"
+          })
         })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h2", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h2", {
           children: "Luk\xE1\u0161 Klatovsk\xFD"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
           src: _storage_img_Lukas_png__WEBPACK_IMPORTED_MODULE_1__.default,
           alt: "Lukas"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+          href: "https://www.linkedin.com/in/lukas-klatovsky/",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+            id: "LinkedIn",
+            src: _storage_img_LinkedIn_png__WEBPACK_IMPORTED_MODULE_3__.default,
+            alt: "LinkedIn"
+          })
         })]
-      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("h2", {
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h2", {
           children: "Dagmar Svobodov\xE1"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("img", {
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
           src: _storage_img_Dagmar_png__WEBPACK_IMPORTED_MODULE_2__.default,
           alt: "Dagmar"
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
+          href: "https://www.linkedin.com/in/dagmarsvobodovab476a21a9/",
+          children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
+            id: "LinkedIn",
+            src: _storage_img_LinkedIn_png__WEBPACK_IMPORTED_MODULE_3__.default,
+            alt: "LinkedIn"
+          })
         })]
       })]
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
       children: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum totam est repellat iure odio, delectus culpa maiores quasi quam iste, cum dicta reprehenderit earum itaque, atque accusamus id! Dolores, fugit.    L Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat molestias itaque vero sint, doloribus voluptatem recusandae iure sunt quae tempore enim harum explicabo ratione consequuntur inventore. Ad laboriosam voluptas beatae."
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("p", {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("p", {
       children: "We don't own any of these marketed items. By purchasing any of them you agree not to recieved any item and your payment will be considered donation to our private accounts. Thank you for your support"
     })]
   });
@@ -612,9 +635,7 @@ function Register(props) {
               response_data = _context.sent;
 
               if (Math.floor(response.status / 100) == 2) {
-                // any kind of 2xx response code
-                location.href = '/'; // redirect to /
-                // location.reload(); // refresh the current page
+                location.href = '/';
               }
 
             case 9:
@@ -2238,6 +2259,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/Earth.jpg?7b7f4a88a252dc95c545bb9548fff91a");
+
+/***/ }),
+
+/***/ "./storage/img/LinkedIn.png":
+/*!**********************************!*\
+  !*** ./storage/img/LinkedIn.png ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/LinkedIn.png?7ab6bfeae33bc6a403bf37cae132f070");
 
 /***/ }),
 
