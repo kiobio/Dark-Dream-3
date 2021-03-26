@@ -1821,8 +1821,9 @@ function Cart() {
 
             case 5:
               data = _context2.sent;
+              setCartItems("");
 
-            case 6:
+            case 7:
             case "end":
               return _context2.stop();
           }
@@ -1853,8 +1854,9 @@ function Cart() {
 
             case 5:
               data = _context3.sent;
+              setCartItems("");
 
-            case 6:
+            case 7:
             case "end":
               return _context3.stop();
           }
@@ -1866,7 +1868,14 @@ function Cart() {
 
   return cartItems.length ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
     className: "Cart",
-    children: [cartItems.map(function (item, index) {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("button", {
+      onClick: function onClick() {
+        noMoney();
+        fetchCartItems();
+        fetchCartItems();
+      },
+      children: "Cancel "
+    }), cartItems.map(function (item, index) {
       return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
         className: "ImageText",
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {

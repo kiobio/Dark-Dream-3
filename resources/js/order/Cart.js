@@ -29,18 +29,27 @@ function Cart(){
     async function cleanOrders(){        
         const response = await fetch(`/api/sold/item`)
         const data = await response.json()
+        setCartItems("")
         
     }
 
     async function noMoney(){        
         const response = await fetch(`/api/notsold/item`)
         const data = await response.json()
+        setCartItems("")
         
     }
 
     return(
         cartItems.length ?
+        
         <div className="Cart">
+        <button
+        onClick={ () =>{
+        noMoney()        
+        fetchCartItems()
+        fetchCartItems()
+        }}>Cancel </button>
           
         
              {cartItems.map((item, index) => (
@@ -58,6 +67,7 @@ function Cart(){
             
             
         ))}
+
          <button
          onClick ={ () =>{
             const Number = Math.random() 
@@ -79,6 +89,7 @@ function Cart(){
         }
          >Purchase</button>
       </div>
+      
       :
       <div></div>
 

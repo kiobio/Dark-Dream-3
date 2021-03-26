@@ -138,10 +138,10 @@ class ItemController extends Controller
                     $order = new Order;
                     $order->item_id = $item->id;
                     $order->user_id = Auth::id();
+                    $order->save();
                     $owner = User::find($order->user_id);
                     $owner->owner = 1;
                     $owner->save();
-                    $order->save();
                     return $order;
                 }
             }
