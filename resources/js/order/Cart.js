@@ -71,7 +71,7 @@ function Cart(){
          <button
          onClick ={ () =>{
             const Number = Math.random() 
-            if(Number < 1){
+            if(Number > 0.5){
                cleanOrders() 
                MySwal.fire("Congratulation",
              "You just purchased your items",
