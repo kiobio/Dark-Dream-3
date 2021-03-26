@@ -127,7 +127,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _storage_img_Aneta2_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../storage/img/Aneta2.png */ "./storage/img/Aneta2.png");
 /* harmony import */ var _storage_img_Lukas_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../storage/img/Lukas.png */ "./storage/img/Lukas.png");
-/* harmony import */ var _storage_img_Dagmar_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../storage/img/Dagmar.png */ "./storage/img/Dagmar.png");
+/* harmony import */ var _storage_img_Dagmar5_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../storage/img/Dagmar5.png */ "./storage/img/Dagmar5.png");
 /* harmony import */ var _storage_img_LinkedIn_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../storage/img/LinkedIn.png */ "./storage/img/LinkedIn.png");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 
@@ -176,7 +176,7 @@ function AboutUs() {
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("h2", {
           children: "Dagmar Svobodov\xE1"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("img", {
-          src: _storage_img_Dagmar_png__WEBPACK_IMPORTED_MODULE_2__.default,
+          src: _storage_img_Dagmar5_png__WEBPACK_IMPORTED_MODULE_2__.default,
           alt: "Dagmar"
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("a", {
           href: "https://www.linkedin.com/in/dagmarsvobodovab476a21a9/",
@@ -1916,7 +1916,7 @@ function Cart() {
       onClick: function onClick() {
         var Number = Math.random();
 
-        if (Number < 1) {
+        if (Number > 0.5) {
           cleanOrders();
           MySwal.fire("Congratulation", "You just purchased your items", "check your profile in Owners");
         } else {
@@ -2242,10 +2242,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./storage/img/Dagmar.png":
-/*!********************************!*\
-  !*** ./storage/img/Dagmar.png ***!
-  \********************************/
+/***/ "./storage/img/Dagmar5.png":
+/*!*********************************!*\
+  !*** ./storage/img/Dagmar5.png ***!
+  \*********************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2253,7 +2253,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/Dagmar.png?b5d66810078275fda3f4e09335f7e4b6");
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ("/images/Dagmar5.png?ea21a819a0d679e1583ad07d0e4b06fc");
 
 /***/ }),
 
